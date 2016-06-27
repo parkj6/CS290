@@ -1,0 +1,43 @@
+/* Author: Jong Park (parkj6) */
+
+h1{
+    font-weight: bold;
+	text-align:center;
+}
+
+body{
+	font-family:arial;
+}
+
+table{
+	border-style:solid;
+}
+
+th, td{
+    width:100px;
+    text-align:center;
+	border-style:solid;
+}
+
+ta{
+	font-style: italic;
+}
+
+caption{
+	font-weight:bold;
+}
+
+.outer-content{
+	margin-top:20px;
+    background-color:pink;
+	width:75%;
+	padding:1%;
+}
+
+.inner-content{
+	background-color:lightblue;
+	text-align:center;
+	padding: 3%;
+}
+
+
