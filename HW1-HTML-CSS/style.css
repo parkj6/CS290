@@ -1,0 +1,51 @@
+/* Author: Jong Park (parkj6) */
+
+h1{
+    font-weight: bold;
+	text-align:center;
+}
+
+body{
+	font-family:arial;
+}
+
+table{
+	border-style:solid;
+}
+
+th, td{
+    width:100px;
+    text-align:center;
+	border-style:solid;
+}
+
+ta{
+	font-style: italic;
+}
+
+caption{
+	font-weight:bold;
+}
+
+div.outer-content{
+	margin-top:20px;
+    background-color:pink;
+	width:75%;
+	height:100px;
+}
+
+div.inner-content{
+	background-color:lightblue;
+	text-align:center;
+	vertical-align:middle;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width:75%;
+	height:75px;
+	max-height: 75%;
+	max-width: 75%;
+}
+
+

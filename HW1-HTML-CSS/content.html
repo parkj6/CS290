@@ -1,0 +1,157 @@
+<!-- Author: Jong Park (parkj6) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 1: HTML/CSS</title>
+  </head>
+  <body>
+	<h1>First Assignment: HTML/CSS</h1>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	
+	<table>
+	 <caption>Vowel matching words</caption>
+		<thead>
+		 <tr>
+		  <th></th>
+		  <th>A</th>
+		  <th>E</th>
+		  <th>I</th>
+		  <th>O</th>
+		  <th>U</th>
+		 </tr>
+		</thead>
+		<tbody>
+		 <tr>
+			<td><ta>B</td>
+			<td>BAd</td>
+			<td>BEans</td>
+			<td>BIos</td>
+			<td>BOard</td>
+			<td>BUbble</td>
+		 </tr>
+		 <tr>
+			<td><ta>C</td>
+			<td>CAmels</td>
+			<td>CElls</td>
+			<td>CIrcle</td>
+			<td>COol</td>
+			<td>CUrious</td>
+		 </tr>
+		 <tr>
+			<td><ta>D</td>
+			<td>DAte</td>
+			<td>DEcision</td>
+			<td>DIagnosis</td>
+			<td>DOne</td>
+			<td>DUmplings</td>
+		 </tr>
+		 <tr>
+			<td><ta>F</td>
+			<td>FAte</td>
+			<td>FEet</td>
+			<td>FIos</td>
+			<td>FOols</td>
+			<td>FUnk</td>
+		 </tr>
+		 <tr>
+			<td><ta>G</td>
+			<td>GArden</td>
+			<td>GEek</td>
+			<td>GIgantic</td>
+			<td>GOld</td>
+			<td>GUacamole</td>
+		 </tr>
+		 <tr>
+			<td colspan="2">ABCDFG</td>
+			<td colspan="4">EIOU</td>
+		 </tr>
+		</tbody>
+	</table>
+
+	<p>This is a list of search engine</p>
+	<ul>
+		<li><a href="http://www.google.com">Google</a> </li>
+		<li><a href="http://www.bing.com">Bing</a> </li>
+		<li><a href="http://www.duckduckgo.com">DuckDuckGo</a> </li>
+		<li><a href="http://en.wikipedia.org">Wikipedia</a> </li>
+			<ul><li><a href="http://simple.wikipedia.org">Simple Wiki</a> </li></ul>
+	</ul>
+
+	<div align="left" class="outer-content">
+		<div align="center" class="inner-content">
+			I'm in here!
+		</div>
+	</div>
+	
+	<form action= "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+	<fieldset>
+		<legend>POST Data:</legend>
+		<label>Text Input:
+			<input type="text" name="text_input" size="30" maxlength="100">
+		</label> 
+		<br>
+		<label>Number Input:
+			<input type="number" name="numerical_input" size="30" maxlength="100">
+		</label> 
+		<br>
+		<label>Password Input
+			<input type="password" name="password_input" size="30" maxlength="100">
+		</label>
+		<br>
+		
+		<p><label for="candy">Candy</label> <br>
+			<label>
+				<input type="radio" name="candy-type" value="Snickers" />Snickers
+			</label> <br>
+			<label>
+				<input type="radio" name="candy-type" value="Skittles" />Skittles
+			</label><br>
+			<label>
+				<input type="radio" name="candy-type" value="Mentos" />Mentos
+			</label><br>
+			
+		</p>
+		
+		<input type="submit" value="Submit" />
+
+	</fieldset>
+	</form>
+	
+	<form action= "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+	<fieldset>
+		<legend>GET Data:</legend>
+		<label>Text Input:
+			<input type="text" name="text_input" size="30" maxlength="100">
+		</label> 
+		<br>
+		<label>Number Input:
+			<input type="number" name="numerical_input" size="30" maxlength="100">
+		</label> 
+		<br>
+		<label>Password Input
+			<input type="password" name="password_input" size="30" maxlength="100">
+		</label>
+		<br>
+		
+		<p><label for="candy">Candy</label> <br>
+			<label>
+				<input type="radio" name="candy-type" value="Snickers" />Snickers
+			</label> <br>
+			<label>
+				<input type="radio" name="candy-type" value="Skittles" />Skittles
+			</label><br>
+			<label>
+				<input type="radio" name="candy-type" value="Mentos" />Mentos
+			</label><br>
+			
+		</p>
+		
+		<input type="submit" value="Submit" />
+
+	</fieldset>
+	</form>
+	
+	
+  </body>
+</html>
